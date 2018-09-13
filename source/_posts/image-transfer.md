@@ -19,7 +19,7 @@ Deep Photo Style Transfer  2017
 
 ## A Neural Algorithm of Artistic Style    2015
 ## Image StyleTransfer Using Convolutional Neural Networks 2016 
-![](https://github.com/LOOKCC/LOOKCC.github.io/blob/master/2017/12/04/image-transfer/1/1.PNG)
+![](image-transfer/1/1.PNG)
 ![](image-transfer/1/2.PNG)
 ### 定义输入和输出
 前面说过，这两篇讲的是一个东西，只是15年的时候他们的paper讲的不够清楚，在16年他们又发了一篇用来详细的叙述他们的模型。

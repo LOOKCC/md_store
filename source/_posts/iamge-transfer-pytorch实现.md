@@ -7,7 +7,7 @@ tags: 机器学习
 前面有一篇博客讲了一些关于iamge transfer 的原理的，一共讲了5篇论文，这次就其中前两篇（这两篇是一样的）来实现一下，主要使用pytorch。  
 [Image StyleTransfer Using Convolutional Neural Networks](https://pdfs.semanticscholar.org/7568/d13a82f7afa4be79f09c295940e48ec6db89.pdf)
 ## 模型回顾
-先来回顾一下我们的模型，首先是我们的输入和输出，我们的输入是两个image，一个称为content，一个称为style，我们的输出是一张图片，这张图片应该有content的内容和style的纹理。而关于我们的CNN，我们使用的是已经训练好的VGG19的模型。下面是我们需要用的包，先进行导入。
+先来回顾一下我们的模型，首先是我们的输入和输出，我们的输入是两个image，一个称为content，一个称为style，我们的输出是一张图片，这张图片应该有content的内容和style的纹理。而关于我们的CNN，我们使用的是已经训练好的VGG19的模型。下面是我们需要用的包，先进行导入。   
 ```python
 import torch
 import torch.nn as nn
